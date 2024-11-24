@@ -2,7 +2,7 @@
 const serverIP = "tencojajamidzwoni.pl"; 
 const apiURL = `https://api.mcsrvstat.us/2/${serverIP}`;
 
-sync function fetchServerStats() {
+async function fetchServerStats() {
     try {
         const response = await fetch(apiURL);
         const data = await response.json();
