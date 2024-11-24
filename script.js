@@ -28,5 +28,5 @@ sync function fetchServerStats() {
 // Call the function on page load
 fetchServerStats();
 
-// Refresh stats every 30 seconds
-setInterval(fetchServerStats, 30000);
+// Refresh stats every 3 seconds
+setInterval(fetchServerStats, 3000);
