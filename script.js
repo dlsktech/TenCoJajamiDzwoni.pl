@@ -30,3 +30,5 @@ async function fetchServerStats() {
 
 // Call the function on page load
 fetchServerStats();
+
+setInterval(fetchServerStats, 1000)
