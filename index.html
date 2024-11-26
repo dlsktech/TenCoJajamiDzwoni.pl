@@ -7,12 +7,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Minecraft Server Stats: TenCoJajamiDzwoni.pl</h1>
+    <div id="display-box">
+        <h2 id="server-title">TenCoJajamiDzwoni.pl</h2>
+        <p id="server-motd">Loading MOTD...</p>
+    </div>
+
     <div id="server-info">
         <p>Server Status: <span id="server-status">Loading...</span></p>
         <p>Players Online: <span id="player-count">Loading...</span></p>
-        <p>Players: <span id="player-list">Loading...</span></p>
+        <div id="player-list-container">
+            <p>Players:</p>
+            <div id="player-list">Loading...</div>
+        </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
